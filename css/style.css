@@ -55,6 +55,16 @@ main{
     padding: 5px;
 }
 
+.card-img{
+    max-width: 100%;
+    display: block;
+}
+
+.name{
+    position: absolute;
+    top: 100px
+}
+
 
 
 /* Footer */
