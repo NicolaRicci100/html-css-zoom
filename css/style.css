@@ -41,6 +41,7 @@ header a{
 main{
     height: calc(100vh - 150px);
     background-color: black;
+    overflow-y: auto;
 }
 
 .content{
@@ -83,9 +84,21 @@ footer{
     flex-wrap: wrap;
     height: 100%;
     align-content: center;
+    padding: 15px;
+    text-align: center;
 }
 
 .end{
-    background-color: rgb(74,74,74);
     color: red;
+    align-self: center;
 }
+
+.endbar .fa-solid:first-child{
+    font-size: 30px;
+}
+
+.endbar p{
+    font-size: 13px;
+    line-height: 30px;
+}
+
