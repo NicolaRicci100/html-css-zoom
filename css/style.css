@@ -12,3 +12,27 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+header{
+    height: 50px;
+    background-color: black;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(74,74,74);
+    padding: 4px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.users{
+    height: 100vh;
+}
