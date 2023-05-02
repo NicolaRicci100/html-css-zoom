@@ -40,19 +40,19 @@ header a{
 /* Main */
 main{
     height: calc(100vh - 150px);
+    background-color: black;
 }
 
 .content{
-    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .card{
     flex-basis: calc(100% / 7);
-    min-height: 200px;
-    border: 2px dashed blue;
     padding: 5px;
+    position: relative;
 }
 
 .card-img{
@@ -62,7 +62,11 @@ main{
 
 .name{
     position: absolute;
-    top: 100px
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    background: rgba(77, 77, 77, 0.5);
+    padding: 5px;
 }
 
 
