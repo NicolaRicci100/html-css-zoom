@@ -13,6 +13,7 @@ body{
     margin: 0 auto;
 }
 
+/* Header */
 header{
     height: 50px;
     background-color: black;
@@ -36,10 +37,27 @@ header a{
     justify-content: flex-end;
 }
 
+/* Main */
 main{
     height: calc(100vh - 150px);
 }
 
+.content{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: calc(100% / 7);
+    min-height: 200px;
+    border: 2px dashed blue;
+    padding: 5px;
+}
+
+
+
+/* Footer */
 footer{
     height: 100px;
     background-color: rgb(34,34,34);
@@ -48,4 +66,12 @@ footer{
 .endbar{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: center;
+}
+
+.end{
+    background-color: rgb(74,74,74);
+    color: red;
 }
